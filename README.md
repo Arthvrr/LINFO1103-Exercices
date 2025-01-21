@@ -19,7 +19,7 @@ Ce dépôt présente une introduction aux principales structures de données et 
      - **Linear Sort**  
 
 3. **Extras** :  
-   contient des implémentations d'autres structures de données non couvertes dans le cadre du cours.
+   Contient des implémentations d'autres structures de données non couvertes dans le cadre du cours.
 
 ## Objectif
 
