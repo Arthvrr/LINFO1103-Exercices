@@ -25,7 +25,7 @@ def delete(tree,value):
         elif tree.right().is_empty():
             return tree.left()   # Remplacer le nœud par son sous-arbre gauche
 
-        #Cas 3 : le nœud a deux enfants
+        #Cas 3 : le noeud a deux enfants
         else:
             #Trouver le successeur (le plus petit élément dans le sous-arbre droit)
             min_larger_node = find_min(tree.right())

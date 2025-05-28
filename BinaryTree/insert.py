@@ -1,5 +1,6 @@
 from binary_tree import BinaryTree
 
+#Tombé lors de l'examen d'août 2024
 def insert(tree,value):
     
     if tree.is_empty():
