@@ -1,6 +1,9 @@
 from liste import List
 
 def length(l):
+    """
+    Fonction permettant de retourner la longueur d'une liste l
+    """    
 
     def length_helper(l,num=0):
         
@@ -27,3 +30,7 @@ l5 = l4.concat(2)
 l6 = l5.concat(1)
 print(l6)
 print(length(l6))
+
+empty = List()
+print(empty)
+print(length(empty))

@@ -1,6 +1,9 @@
 from liste import List
 
 def find_in_list(l,e,k):
+    """
+    Fonction permettant de retourner la sous-liste telle que la k-ième occurence de e est la head de la liste 
+    """
 
     if l.is_empty():
         return None

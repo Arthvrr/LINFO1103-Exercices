@@ -1,6 +1,9 @@
 from liste import List
 
 def add(l,e,idx):
+    """
+    Fonction permettant d'ajouter l'élément e à l'index idx de la liste l
+    """
 
     def add_helper(l,e,idx,counter=0):
 

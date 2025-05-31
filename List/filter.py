@@ -1,6 +1,10 @@
 from liste import List
 
 def filter_pair(l):
+    """
+    Fonction permettant de filtrer la liste pour ne garder que les éléments pair de la liste l
+    """
+
     def filter_pair_helper(l):
     
         if l.is_empty():

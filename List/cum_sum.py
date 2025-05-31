@@ -1,6 +1,9 @@
 from liste import List
 
 def cum_sum(l):
+    """
+    Fonction permettant de retourner une liste étant la somme cumulée de la liste l
+    """
 
     def cum_sum_helper(l,somme=0,result=List()):
         

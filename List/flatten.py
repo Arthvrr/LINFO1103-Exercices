@@ -1,6 +1,9 @@
 from liste import List
 
 def flatten(l):
+    """
+    Fonction permettant d'applatir la liste List sous forme de liste Python
+    """
 
     def flatten_helper(l,res=[]):
 
@@ -20,6 +23,9 @@ def flatten(l):
 
 
 def unflatten(liste):
+    """
+    Fonction permettant de transformer une liste Python en une liste List
+    """
 
     max = len(liste)-1
     result = List()
@@ -32,6 +38,9 @@ def unflatten(liste):
     return result
 
 def unflatten_invert(liste):
+    """
+    Fonction permettant de transformer une liste Python en une liste List, et en inversant les valeurs
+    """
     idx = 0
     max = len(liste)
     result = List()

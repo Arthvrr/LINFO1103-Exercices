@@ -1,6 +1,9 @@
 from liste import List
 
 def find_index(l,e):
+    """
+    Fonction permettant de retourner l'index de e dans la liste l, retourne -1 si pas présent
+    """
     
     def find_index_helper(l,e,number=0):
         if l.is_empty():

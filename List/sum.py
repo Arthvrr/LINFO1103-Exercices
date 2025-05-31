@@ -1,6 +1,9 @@
 from liste import List
 
 def somme(l):
+    """
+    Fonction permettant de retourner la somme des éléments d'une liste l
+    """
 
     def somme_helper(l,total=0):
         

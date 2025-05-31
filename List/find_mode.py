@@ -1,6 +1,10 @@
 from liste import List
 
 def find_mode(l):
+    """
+    Fonction permettant de retourner le mode (élément avec le plus d'occurence) dans la liste l, 
+    et retourne la plus petite valeur si égalité entre 2 éléments de la liste
+    """
 
     def find_mode_helper(l,dico={},mode=0,maxi=0):
 

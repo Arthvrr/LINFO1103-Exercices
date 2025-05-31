@@ -1,6 +1,9 @@
 from liste import List
 
 def inverse(l):
+    """
+    Fonction permettant d'inverser les éléments d'une liste l
+    """
 
     def inverse_helper(l,result=List()):
 

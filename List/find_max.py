@@ -1,6 +1,9 @@
 from liste import List
 
 def find_max(l):
+    """
+    Fonction permettant de retourner le nombre max de la liste l
+    """
     
     def find_max_helper(l,maxi=float('-inf')):
         
